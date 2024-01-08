@@ -104,5 +104,5 @@ function sendMail(){
         message: document.getElementById("message").value,
     
     }
-    emailjs.send("service_xlferpv","template_h3r4tgf",parms).then(alert("Email sent!!"))
+    emailjs.send("service_xlferpv","template_h3r4tgf",parms).then(alert("Email sent successfully!!"))
 }
